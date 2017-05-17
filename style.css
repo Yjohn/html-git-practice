@@ -1,9 +1,16 @@
+.primary-content{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
 .primary-column {
+    width: 50%;
     background-color: red;
     color: white;
 }
 
 .secondary-column {
+    width: 20%;
     background-color: yellow;
     color: red;
 }
@@ -11,4 +18,6 @@
 .third-column {
     background-color: black;
     color: white;
+    flex: 1;
 }
+
